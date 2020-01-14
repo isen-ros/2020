@@ -1,5 +1,5 @@
-all:
- 	$(CC) main.cpp hello.cpp -o main
+compile:
+ 	python HelloWorld.py main
 
  clean:
  	rm main
