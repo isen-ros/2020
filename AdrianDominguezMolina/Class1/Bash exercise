@@ -1,0 +1,6 @@
+mkdir example
+cd example
+cat > adriandominguezmolina.txt
+"This is the content of the ROS navigation class"
+^C
+
