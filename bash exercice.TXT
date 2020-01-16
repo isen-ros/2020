@@ -1,3 +1,0 @@
-mkdir example
-cd example
-cat > DINATAIB.txt
