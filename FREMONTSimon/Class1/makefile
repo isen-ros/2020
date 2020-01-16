@@ -1,4 +1,4 @@
 compile:
-	python HelloWorld.py 
+	python Hello_World.py 
 clean:
 	rm rf- *.py
