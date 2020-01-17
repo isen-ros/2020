@@ -1,0 +1,5 @@
+mkdir example
+cd example
+touch YounesBenmansour
+cat <<END > YounesBenmansour
+ROS navigation class
