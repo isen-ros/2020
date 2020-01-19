@@ -1,0 +1,4 @@
+The script could not work, cat > fileName is not something semantically meaningful. 
+Check the usage of "echo".
+Also ensure to move the folder Class1 into Eros/Class1. 
+
