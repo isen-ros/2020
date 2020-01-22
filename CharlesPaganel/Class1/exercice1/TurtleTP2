@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#run roscore et les autres nodes
+roscore
+rosrun turtlesim turtlesim_node
+#on change la couleur du pinceau
+echo Calibrage pinceau 
+
+rosservice call /turtle1/set_pen '2' '2' '250' '4' 'off'
+
+#la figure square est en cours
+
+rosrun turtlesim_cleaner2 ultimatesquare.py
