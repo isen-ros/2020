@@ -1,0 +1,36 @@
+
+Ctrl+Alt+T
+
+$ roscore
+
+
+Ctrl+Alt+T
+
+$ rosrun turtlesim turtlesim_node
+
+Ctrl+Alt+T
+
+//We change turtle's pen
+
+$rosservice call turtle1/set_pen 100 50 25 10 off
+
+//We draw a square with the turtle
+
+$rosservice call turtle1/teleport_absolute 5.5 5.5 1.57
+
+$rosservice call turtle1/teleport_absolute 5.5 10 1.57
+
+$rosservice call turtle1/teleport_absolute 5.5 10 0
+
+$rosservice call turtle1/teleport_absolute 10 10 0
+
+$rosservice call turtle1/teleport_absolute 10 10 4.71
+
+$rosservice call turtle1/teleport_absolute 10 5.5 4.71
+
+$rosservice call turtle1/teleport_absolute 10 5.5 3.14
+
+$rosservice call turtle1/teleport_absolute 5.5 5.5 3.14
+
+
+
