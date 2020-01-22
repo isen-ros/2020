@@ -1,0 +1,15 @@
+Ctrl+Alt+t
+roscore
+
+Ctrl+Alt+t
+rosrun turtlesim turtlesim_node
+
+Ctrl+Alt+t
+rosservice call turtle1/teleport_absolute 1 1 0
+rosservice call turtle1/teleport_absolute 1 10 0
+rosservice call turtle1/teleport_absolute 10 10 0
+rosservice call turtle1/teleport_absolute 10 1 0
+
+rosservice call turtle1/set_pen 1 10 10 10 off
+
+
