@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#run roscore et Turtlesim
+echo Lancement roscore
+roscore &
+echo Lancement TurtleSim
+rosrun turtlesim turtlesim_node &
+echo Lancement rviz 
+rosrun rviz rviz
+.
