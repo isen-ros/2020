@@ -1,0 +1,5 @@
+mkdir example
+cd example
+cat>ErosOrtega.txt
+"This is the content of the ROS Navigation Class"
+^C
