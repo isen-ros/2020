@@ -1,7 +1,7 @@
 <launch>
 	<node pkg="turtlesim" type="turtlesim_node" name="Beginning" />
 	<node pkg="turtle_tf" type="turtle_tf_broadcaster" args="turtle1" name="after_beginning" />
-	<node pkg="tf" type="view_frames" name="etape3" />
-	<node pkg="tf" type="tf_echo" name="etape4" args="world turtle1"/>
-	<node pkg="rviz" type="rviz" name="etape5" args="-d '/home/batman/catkin_ws/src/jaimonmilli/rviz/exercice3flavie27_01_2020_11_15.rviz'"/>
+	<node pkg="tf" type="view_frames" name="middle" />
+	<node pkg="tf" type="tf_echo" args="world turtle1" name="before_the_end"/>
+	<node pkg="rviz" type="rviz"  args="-d '/home/batman/catkin_ws/src/jaimonmilli/rviz/exercice3flavie27_01_2020_11_15.rviz'" name="the_end" />
 </launch>
