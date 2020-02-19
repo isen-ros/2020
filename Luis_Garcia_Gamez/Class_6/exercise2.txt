@@ -1,0 +1,9 @@
+For adding a camera to our turtlebot 3 we have to:
+
+1.- Setting up the camera hardware.
+	.- Select 3 Interfacing Options.
+	.- Select P1 Camera.
+	.- Enable camera interface.
+2.- Reboot Raspberry Pi and to test that the system is installed and working.
+3.- Install relevant Raspberry Pi Camera packages on your ROS system.
+4.- Run raspicam node.
