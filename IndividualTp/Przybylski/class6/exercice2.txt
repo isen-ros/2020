@@ -1,0 +1,12 @@
+Comment mettre la caméra sur le turtlebot ?
+
+1= Configurer les paramètres de la caméra à notre convenance
+2= On active la connexion de la caméra 
+3= On redémarre la raspberry pour que cela soit configuré
+
+Comment communique t-on entre deux ordinateurs en ROS ?
+
+L'un des ordinateur est déclaré en tant que maitre pour envoyer les données, et le second ordinateur intervient comme un exclave pour executer le programme.
+Il en résulte que nous avons une relation de maitre à exclave. 
+
+Fin.
