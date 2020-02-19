@@ -1,0 +1,32 @@
+How to connect 2 device/PC with ROS?
+
+1st step sur le PC master:
+
+run Roscore
+
+open the bashrc:
+nano ~/.bashrc
+
+a la fin du fichier si ce n est pas deja fait on ajoute les lignes:
+
+export ROS_MASTER_URI=http://X.X.X.X:11311
+export ROS_IP=Y.Y.Y.Y
+
+Avec X.X.X.X et Y.Y.Y.Y les adresses IP du PC master
+
+2nd step sur le robot , ou slave:
+nano ~/.bashrc
+
+la même chose:
+Avec X.X.X.X la PC master IP , et Y.Y.Y.Y l'IP du robot.
+
+Pour verifier que les 2 PC sont connectés , on peut utiliser rqt_graph pour voir si c est le même
+sur les 2 PC.
+On peut aussi faire la liste des topics sur le PC master et voir si des topics sont ceux du turtlebot3 par exemple comme 
+la pose du robot.
+
+Pour synchroniser les 2 robots il faut aussi mettre les horloges a la même heure:
+pour ça  on installe chrony , on stoppe chrony sur une des deux machines , on prend l'heure de la deuxieme machine avec son
+adresse IP et on redemarre chrony.
+
+Normalement l'installation est complète.
