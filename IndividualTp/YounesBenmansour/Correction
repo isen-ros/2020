@@ -1,2 +1,0 @@
-The bash file is not complete, you are using a << operator, meaning that you have to close it. Please ensure that you are doing this by your self and you are making work these scripts.
-By the way, also move this excercises to YounesBenmansour/Class1. 

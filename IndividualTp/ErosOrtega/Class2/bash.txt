@@ -1,7 +1,0 @@
-$roscore
-$rosrun tutlesim turtlesim_node
-$rosservice call turtle1/set_pen 120 20 30 20 off
-$rosservice call turtle1/teleport_absolute 10 5.5 0
-$rosservice call turtle1/teleport_absolute 10 10 0
-$rosservice call turtle1/teleport_absolute 5.5 10 0
-$rosservice call turtle1/teleport_absolute 5.5 5.5 0

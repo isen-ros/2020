@@ -1,4 +1,0 @@
-mkdir example
-cd example
-touch Stauder
-echo "Ros Navigation class" > Stauder

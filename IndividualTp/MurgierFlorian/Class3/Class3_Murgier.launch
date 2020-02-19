@@ -1,7 +1,0 @@
-<launch>
-	<node pkg="turtlesim" type="turtlesim_node" name=etape1" />
-	<node pkg="turtle_tf" type="turtle_tf_broadcaster" args="turtle1" name="etape2" />
-	<node pkg="tf" type="view_frames" name="etape3" />
-	<node pkg="tf" type="tf_echo" name="etape4" args="world turtle1" />
-	<node pkg="rviz" type="rviz" name="etape5" args="-d '/home/florian/catkin_ws/src/test_prog_c/rviz/turtlesim_pose.rviz'" />
-</launch>

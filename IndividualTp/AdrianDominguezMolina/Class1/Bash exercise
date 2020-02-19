@@ -1,8 +1,0 @@
-mkdir example
-cd example
-// In here the idea is to create with an echo. 
-// Cat is not used like this. 
-cat > adriandominguezmolina.txt
-"This is the content of the ROS navigation class"
-^C
-

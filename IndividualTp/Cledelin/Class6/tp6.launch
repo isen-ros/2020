@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="tp6" type="tp6_node" name="start_hour_node" />
+	<node pkg="tp6" type="print_hour_node.py" name="print_hour" />
+	
+</launch>
