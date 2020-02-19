@@ -1,0 +1,9 @@
+Comment configurer une caméra sur le turtlebot:
+
+1/ vous devez brancher l'appareil photo à notre convenance.
+2/ activer l'interface de la caméra.
+3/ redémarrez le Raspberry.
+
+Que faire pour que ROS fonctionne sur 2 ordinateurs ??
+
+Le premier ordi est déclaré en tant que maitre pour envoyer les données, et le second ordi intervient comme un exclave pour executer le programme.
