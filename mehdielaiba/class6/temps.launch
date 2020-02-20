@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="exercice6" type="heure" name="heure"/>
+
+
+  <node pkg="exercice6" type="client" name="client" output="screen" />
+
+
+</launch>
