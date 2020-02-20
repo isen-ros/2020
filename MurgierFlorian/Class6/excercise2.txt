@@ -1,0 +1,11 @@
+	- What is needed to add a camera on top of a burger turtlbot3 ?
+
+First you have to connect the camera to the Raspberry and then configure the camera, then you activate the connexion to get the camera interface. You finish by rebooting the Raspberry to save the configuration.
+
+
+
+	- What is needed to make ROS working on 2 computers ?
+
+On the first computer you run ssh and the master. Then you launch a listner to configure ROS_MASTER_URI.
+On the second computer you launch a talker.
+You need to configure both IP adress so that the listner know where to read from and the talker know where it has to send messages

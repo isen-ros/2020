@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="beginner_tutorials" type="server" />
+	<node pkg="beginner_tutorials" type="client.py" args="1" output="screen />
+</launch>
