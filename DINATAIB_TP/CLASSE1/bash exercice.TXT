@@ -1,0 +1,5 @@
+  
+mkdir example
+cd example
+touch dinaTAIB.txt
+echo "ROS Navigation class" >> dinaTAIB.txt
