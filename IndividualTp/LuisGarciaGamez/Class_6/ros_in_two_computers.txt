@@ -1,0 +1,1 @@
+I guess that to connect two computers is necessary to stablish a talker/listener relation between them, or two so both could send and receive messages. It's the only thing in which I can think having in count what we have seen.
