@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="time" type="time_node" name="time_node_start" />
+	<node pkg="time" type="listener.py" args="turtle1" name="listener_node_start" />
+
+</launch>

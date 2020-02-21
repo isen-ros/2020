@@ -1,0 +1,2 @@
+On connecte la camera sur la raspberry et on utilise les services et nodes afin de faire communiquer les informations de la caméra au robot. La camera sera utilisée en publisher et le robot en subscriber.
+
