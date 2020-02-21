@@ -1,0 +1,12 @@
+Pourquoi utiliser 2 ordinateurs pour travailler sur ROS?
+
+Si on résume la chose dans notre cas:
+
+Il y a notre premier ordinateur ( c'est notre raspberry sur notre robot) qui lui va permettre de récuper des données sur lui même et son enviroment grâce à l'ensemble de ses capteurs. Dans notre cas présent, les données récuperées par notre caméra.
+
+Il y a ensuite un second ordinateur qui va quant à lui éxecuter le programme proncipale,en utilisant notamment certaines données reçus par notre premier ordinateur.
+
+
+
+C'est le lancement de roscore sur les deux ordinateurs qui va permettent la communication des 2 machines, et ainsi faire que les noeuds communiquent entre eux.
+
