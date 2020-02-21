@@ -1,0 +1,2 @@
+first we ask for the position to store. Then we call store function and we save the position.
+If the user want to see the different position stored we make a reader for the tab. Then the user can choose a position name and we call goto function to reach this position.

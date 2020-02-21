@@ -1,0 +1,3 @@
+we plug the camera on the raspberry Pi and we use services and nodes from sensor_msgs package or photo package to do our task.
+
+ROS use a peer to peer network based on subscribe and publish and roscore is like a broker which centralize informations.
