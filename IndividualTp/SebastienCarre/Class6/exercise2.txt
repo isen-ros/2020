@@ -1,0 +1,11 @@
+How to setup a camera on the turtlebot :
+
+	First, you have to plug the camera to the raspberry.
+	Then, setting up the camera hardware to enable the camera interface.
+	And reboot the Raspberry.
+
+What to do to make ROS working on 2 computers :
+
+	We need to launch ssh and run the master.
+	Then, we start a listener by configuring ROS_MASTER_URI.
+	Finally, we start a talker on the second computer.
