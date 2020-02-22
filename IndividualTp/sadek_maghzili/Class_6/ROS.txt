@@ -1,0 +1,1 @@
+Pour pouvoir utiliser ROS sur 2 machines, il faut que les 2 machines soit connecté sur le même réseau. On récupère ensuite leur adresse ip pour établir une connexion tcp en définissant un master et un host.
