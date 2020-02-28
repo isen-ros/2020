@@ -1,0 +1,8 @@
+prefix=/home/seb/catkin_ws/install
+
+Name: class_6
+Description: Description of class_6
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

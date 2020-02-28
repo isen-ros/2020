@@ -1,0 +1,8 @@
+prefix=/home/seb/catkin_ws/install
+
+Name: test_simu
+Description: Description of test_simu
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

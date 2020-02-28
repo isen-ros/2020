@@ -1,0 +1,8 @@
+prefix=/home/seb/catkin_ws/install
+
+Name: class3_group
+Description: Description of class3_group
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
