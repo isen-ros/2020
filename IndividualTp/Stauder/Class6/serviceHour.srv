@@ -1,0 +1,4 @@
+---
+int64 hours
+int64 minutes
+int64 seconds
