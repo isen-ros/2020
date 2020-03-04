@@ -1,0 +1,5 @@
+Pour ajouter une camera sur le robot, on doit l'installer correctement en suivant les bons tutos et ajouter sa representation geometrique dans l'arbre de transformation du robot.
+La camera se controle ensuite facilement avec la bibliotheque OPENCV.
+
+Pour faire fonctionner ROS sur 2 PC, on doit ajouter leur adresse IP respectives dans l'autre PC en definissant un maitre et un esclave.
+On peut aussi controler un PC sur l'autre avec une communication SSH.
