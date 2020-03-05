@@ -1,0 +1,5 @@
+
+std_msgs/String annotation
+geometry_msgs/Pose pose
+---
+bool resultat
