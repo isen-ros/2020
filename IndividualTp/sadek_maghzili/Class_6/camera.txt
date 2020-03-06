@@ -1,0 +1,1 @@
+Pour pouvoir utiliser la camera sur le turtlebot, il faut la connecter et la configurer. Ensuite, initialiser ses coordonnées dans le tf transformations on pourra ensuite passer du système de coordonné de la camera à celle du robot et inversement.
