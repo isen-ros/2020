@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="exercice_corentin" type="serviceHour" name="serviceHour"/>
+	<node pkg="exercice_corentin" type="clientHour.py" name="clientHour" output = "screen"/>
+</launch>
