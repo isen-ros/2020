@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="package" type="getHour.py" name="getHourClient" output="screen"/>
+	<node pkg="package" type="getHour" name="getHourService"/>
+</launch>
