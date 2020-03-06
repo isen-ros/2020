@@ -1,0 +1,44 @@
+Comment installer une camera sur le turtlebot3 burger?
+
+Le modèle le plus pratique est une RasPiCam , elle se connecte aux ports de la raspberry.
+
+En utilisant ros et open CV , on peut trouver des codes de ball tracking , pour les markers et qr codes  et 
+la reconnaissance d'objets 2D.
+
+
+1st step :
+on télécharge les packages  "Raspberry Pi Camera":
+
+ cd ~/catkin_ws/src
+ git clone https://github.com/UbiquityRobotics/raspicam_node.git
+ sudo apt-get install ros-kinetic-compressed-image-transport ros-kinetic-camera-info-manager
+ cd ~/catkin_ws && catkin_make
+
+on branche la camera a la raspberry 
+dans le terminal:
+
+sudo raspi-config
+select Interfacing options and enable P1 Camera
+
+on reboot la Raspberry, puis on test la camera:
+raspistill -v -o test.jpg
+
+
+
+2nd step , lancer les nodes:
+lancer roscore
+
+mettre en route le turtlebot burger , on précise le modèle , puis :
+dans le terminal:
+roslaunch turtlebot3_bringup turtlebot3_rpicamera.launch
+
+Dans un autre terminal on visualise l'image de la camera:
+rqt_image_view
+Si on est sur le PC :
+rqt_image_view
+
+Pour modifier l'image de la caméra , le contraste, la saturation , l'ISO, la luminosité, on utilise dans un nouveau terminal:
+
+rosrun rqt_reconfigure rqt_reconfigure
+
+INSTALLATION TERMINEE
