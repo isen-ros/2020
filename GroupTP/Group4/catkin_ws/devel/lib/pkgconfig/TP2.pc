@@ -1,0 +1,8 @@
+prefix=/home/seb/catkin_ws/devel
+
+Name: TP2
+Description: Description of TP2
+Version: 0.0.0
+Cflags: -I/home/seb/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp rospy std_msgs geometry_msgs

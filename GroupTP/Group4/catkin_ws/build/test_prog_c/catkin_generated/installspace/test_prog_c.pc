@@ -1,0 +1,8 @@
+prefix=/home/seb/catkin_ws/install
+
+Name: test_prog_c
+Description: Description of test_prog_c
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
