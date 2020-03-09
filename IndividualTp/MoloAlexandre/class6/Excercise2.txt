@@ -1,0 +1,3 @@
+Pour implementer la camera il faut la brancher au Raspberry et utiliser les nodes du sensor package pour communiquer avec l'unité de contrôle
+
+Pour utiliser ROS sur plusieurs ordinateurs il faut lancer un ssh sur l'un et un master sur l'autre pour les mettre en reseau puiis communiquer avec un publisher et un subscribe avec l'IP du master
