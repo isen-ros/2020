@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="beginner_tutorials" type="Hour_server" name="lancement_du_service" />
+	<node pkg="beginner_tutorials" type="Hour_Client.py" name="Lancement_du_client"/>
+</launch>

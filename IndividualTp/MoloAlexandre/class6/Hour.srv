@@ -1,0 +1,6 @@
+int64 x
+---
+int64 hour
+int64 min
+int64 sec
+
