@@ -1,0 +1,8 @@
+<launch>
+	<node pkg="turtlesim" type="turtlesim_node" name="Demarrage_node_Turtlesim" />
+	<node pkg="turtle_tf" type="turtle_tf_broadcaster" args="turtle1" name="pose_subscriber" />
+
+	<node pkg="tf" type="tf_echo"  args="world turtle1" name="show_pose"/>
+	<node pkg="rviz" type="rviz" name="Rviz" args="-d '`rospack find turtle_tf`/rviz/turtle_rviz.rviz'"/>
+
+</launch>
