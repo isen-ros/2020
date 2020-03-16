@@ -1,0 +1,1 @@
+Il faut créer une fonction qui va enregistrer toutes les positions dans un tableau d'une taille variable 
