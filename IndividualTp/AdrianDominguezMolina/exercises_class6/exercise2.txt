@@ -1,0 +1,20 @@
+What to do for adding a camera on top of the turtlebot3
+
+
+In this case we are speaking about the camera Raspberry Pi Camera Type G
+
+CONNECTING THE CAMERA
+The flex cable inserts into the connector situated between the Ethernet and HDMI ports, with the silver connectors facing the HDMI port. The flex cable connector should be opened by pulling the tabs on the top of the connector upwards then towards the Ethernet port. The flex cable should be inserted firmly into the connector, with care taken not to bend the flex at too acute an angle. The top part of the connector should then be pushed towards the HDMI connector and down, while the flex cable is held in place.
+After the connection, we go to the terminal and we do "apt-get update" "apt-get upgrade" and then we open the raspi-config tool from the terminal "sudo raspi-config". We select Enable and press Enter.
+
+USE
+To take a photo "raspistill -o image.jpg"
+To take a video "raspivid -o video.h264 -t 10000"
+
+
+TO TAKE INTO ACCOUNT
+
+To configure it we need a valid TF for our camera to one existing frame and it's finished
+
+
+

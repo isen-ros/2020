@@ -1,0 +1,8 @@
+<launch>
+	<node pkg="beginner_tutorials" type="talker" name="talker_node" />
+
+	<node pkg="beginner_tutorials" type="talker.py" name="talker_node" />
+
+
+</launch>
+	

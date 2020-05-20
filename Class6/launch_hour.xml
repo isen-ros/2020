@@ -1,7 +1,0 @@
-<launch>
-	
-	<node pkg="beginner_tutorials" type="hour_server.cpp" name="hour_server.cpp" />
-
-	<node pkg="beginner_tutorials" type="hour_client.cpp" name="hour_client.cpp" />
-
-</launch>

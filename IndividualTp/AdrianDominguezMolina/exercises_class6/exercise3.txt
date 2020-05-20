@@ -1,0 +1,5 @@
+Running ROS in two different computers.
+
+To run ROS on multiple machines, first of all they have to be in the same local network. We need the IP adress of each device. We get the IP adress of the devices just writing 'ifconfig' in the terminal.
+
+A example of working with ROS in two computers is when we control the turtlebot3 burger with the keyboard of our computer. In this case, the Master is our computer since we run 'roscore' on it. We only need to run 'roscore' in one device. Then in the Turtlebot (Rasberry Pi) we run the commands to connect the robot to our computer ($ roslaunch turtlebot3_bringup turtlebot2_robot.launch) and then in our computer we run the commands to specify the connection and the application we want to do with the robot ($ roslaunch turtlebot3_teleop turtlebot3_key_teleop) and the connection will be stablished and we are using different ROS topics in two computers.
