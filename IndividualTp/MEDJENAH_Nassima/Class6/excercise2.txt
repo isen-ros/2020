@@ -1,0 +1,38 @@
+1) ADDING A CAMERA IN THE TURTLEBOT
+
+To add a camera in our turtle bot burger, we have to use and connect a Raspberry Pi Camera Type G in our Raspberry.
+
+Once it is done, we need to install some additional packages, which will permit us to see in the computer the view of the robot :
+
+sudo apt-get install ros-kinetic-image-transport ros-kinetic-cv-bridge ros-kinetic-vision-opencv python-opencv libopencv-dev ros-kinetic-image-proc
+
+When the installation is complete, all we have to do to activate the camera is to launch the lines :
+
+roslaunch turtlebot3_autorace_camera turtlebot3_autorace_camera_pi.launch
+rqt_image_view
+
+If everything does not works fine, the first thing to do is to calibrate the camera by using the line :
+
+rosrun rqt_reconfigure rqt_reconfigure
+
+We just need to click on the button "Camera" and ajust the parameter value.
+We can do the same thing for the intrinsic camera calibration, and the extrinsic camera calibration. (All the code is in the ROS tutorials)
+
+Source : http://emanual.robotis.com/docs/en/platform/turtlebot3/autonomous_driving/#autonomous-driving
+
+2) MAKE ROS WORKING IN 2 COMPUTERS
+
+To deploy a ROS system across multiple machines, we first need to connect with each other thanks to ssh.
+Then, we have to select one machine to run the master (roscore). If we imagine that we have 2 computers, A and B, we can for example choose A as the master and run "roscore".
+
+Once it is done, we have to set the "ROS_MASTER_URI" which corresponds to the adresses of the computers. So in A we will have :
+
+"export ROS_MASTER_URI=http://A:11311"
+
+And in B we will write :
+
+"export ROS_MASTER_URI=http://A:11311"
+
+Now, we can launch a node in one computer and another in the other computer, and make communicate the 2 computers if the nodes are linked !
+
+Source : http://wiki.ros.org/ROS/Tutorials/MultipleMachines
